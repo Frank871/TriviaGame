@@ -1,0 +1,24 @@
+body {
+
+	background-color: black;
+
+}
+
+.main-container {
+
+    
+	width: 75%;
+	float: right;
+	position: relative;
+	right:  200px;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	margin-top: 40px;
+	background-color: white;
+}
+
+h1 {
+  color: crimson;
+  font-size: 100px;
+  text-align: center;
+}
