@@ -80,3 +80,18 @@ button:hover  {
   background: darkred;
   color: black;
 }
+
+
+@media screen and (max-width:640px) {
+
+
+  #main-container {
+  position: relative;
+  left: -80px;
+  
+  
+}
+
+  
+  
+}
