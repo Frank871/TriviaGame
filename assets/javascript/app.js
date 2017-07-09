@@ -80,6 +80,7 @@ var game = {
     }
 
     panel.append("<button id='done'>Done</button>");
+    
   },
 
   done: function() {
@@ -170,7 +171,10 @@ var game = {
     panel.append("<h3>Correct Answers: " + this.correct + "</h3>");
     panel.append("<h3>Incorrect Answers: " + this.incorrect + "</h3>");
     panel.append("<h3>Unanswered: " + (questions.length - (this.incorrect + this.correct)) + "</h3>");
+    panel.append("<br>");
+    panel.append("<button id='reset'>Try again?</button>");
   }
+
 };
 
 // CLICK EVENTS
@@ -180,6 +184,12 @@ $(document).on("click", "#start", function() {
   audio.play();
 
   
+});
+
+$(document).on("click", "#reset", function() {
+  
+   location.href = "index.html";
+
 });
 
 

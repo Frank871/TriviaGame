@@ -2,37 +2,44 @@ body {
 
 	background-image: url("http://pipocamoderna.com.br/wp-content/uploads/2017/02/john-wick-art-800x883.jpg");
 	background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Bangers', cursive;
+  text-align: center;
 }
 
 #main-container {
-    width: 75%;
+  width: 75%;
 	float: right;
 	position: relative;
 	right:  200px;
-	padding-top: 50px;
-	padding-bottom: 45px;
-	margin-top: 40px;
+	padding-top: 30px;
+	padding-bottom: 100px;
+	margin-top: 25px;
 	background-color: black;
+  opacity: 0.8;
 	
 }
 
 #sub-container {
-  background-image: url('https://sumeyyeegenc.files.wordpress.com/2015/05/tumblr_nfz0g64jyv1rj79rno1_1280.jpg');
   position: relative;
   top: 20%;
-  font-family: 'Russo One', sans-serif;
-  color: crimson;
-  font-size: 20px;
+  color: darkred;
+  font-size: 25px;
   background-size: 100%;
   
 
 }
 
+
+
 h1 {
-  font-family: 'Russo One', sans-serif;
-  color: red;
+  position: relative;
+  color: darkseagreen;
   font-size: 100px;
   text-align: center;
+  padding: 10px;
+  top: 10px;
 }
 
 button {
@@ -49,11 +56,14 @@ button {
 h2 {
   font-size: 35px;
   margin-bottom: 25px;
+  color: white;
+  text-align: center;
 }
 
 h3 {
   font-size: 25px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 #start {
