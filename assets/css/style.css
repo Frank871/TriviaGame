@@ -84,6 +84,10 @@ button:hover  {
 
 @media screen and (max-width:640px) {
 
+html { height: 100% }
+
+body { min-height: 100% }
+
 body {
 
   display: block;
@@ -96,6 +100,7 @@ body {
   #main-container {
   position: relative;
   left: -50px;
+  top: 100px;
 
   
 }
