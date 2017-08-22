@@ -47,7 +47,10 @@ var questions = [{
 
 // Variable that will hold the setInterval
 var timer;
-var audio = new Audio("assets/javascript/johnwicksong.mp3");
+
+myAudio = new Audio('assets/javascript/johnwicksong.mp3');
+myAudio.loop = true;
+
 
 var game = {
 
@@ -181,7 +184,7 @@ var game = {
 
 $(document).on("click", "#start", function() {
   game.start();
-  audio.play();
+  myAudio.play();
 
   
 });
